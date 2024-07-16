@@ -2,7 +2,7 @@ import { defineConfig } from 'cypress';
 
 export default defineConfig({
   e2e: {
-    baseUrl: 'http://localhost:3000', // Ajuste para a URL base do seu projeto
+    // baseUrl: 'https://google.com', // Ajuste para a URL base do seu projeto
     setupNodeEvents(on, config) {
       // Implemente os ouvintes de eventos do Node aqui, se necessário
     },
